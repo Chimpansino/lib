@@ -196,7 +196,7 @@ function Library:Load(cfgs)
 	-- shared.Window = canvas_group
 
 	if isMobile then
-		canvas_group.Size = UDim2.new(0.9, 0, 0.9, 0)
+		print("is mob")
 	end
 
 	local togglebtn = Create("ImageButton", {
